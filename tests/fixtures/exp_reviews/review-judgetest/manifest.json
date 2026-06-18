@@ -1,0 +1,29 @@
+{
+  "exp_id": "run-judgetest",
+  "status": "complete",
+  "started_at": "2026-05-25T10:00:00+00:00",
+  "finished_at": "2026-05-25T11:00:00+00:00",
+  "challenge_ids": ["crypto/rsb", "web/sqli"],
+  "node_timings": {
+    "coordinator": 0.01,
+    "validator": 0.5,
+    "content_generation": 900.0,
+    "course_terminology_checker": 0.2,
+    "mapping": 0.3,
+    "ranking": 60.0,
+    "refinement_step": 30.0,
+    "hitl": 0.0
+  },
+  "pass_count": 2,
+  "mean_overall_score": 9.2,
+  "settings_snapshot": {
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-6",
+    "temperature": 0.0,
+    "threshold": 9.0,
+    "max_refinements": 5,
+    "skip_ranking": false,
+    "source": "processed",
+    "categories": ["crypto", "web"]
+  }
+}

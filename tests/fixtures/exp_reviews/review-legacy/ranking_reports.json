@@ -1,0 +1,48 @@
+{
+  "profile": "full",
+  "timestamp": "20260512_102210",
+  "model": "claude-opus-4-7",
+  "ranking_model": "claude-haiku-4-5-20251001",
+  "challenges_total": 2,
+  "challenges_completed": 2,
+  "total_cost_usd": 1.5,
+  "total_wall_s": 200.0,
+  "per_challenge": [
+    {
+      "challenge_id": "crypto/rsb",
+      "refinement_rounds": 1,
+      "ranking": {
+        "pedagogical": {
+          "score": 9,
+          "justification": "Good pedagogical structure.",
+          "dimension_scores": {"sections_structure": 9, "cognitive_load": 9}
+        },
+        "technical": {
+          "score": 9,
+          "justification": "Good technical content.",
+          "technical_rank": "Intermediate",
+          "dimension_scores": {"correctness": 9, "completeness": 9}
+        }
+      },
+      "passed": true
+    },
+    {
+      "challenge_id": "web/framed",
+      "refinement_rounds": 3,
+      "ranking": {
+        "pedagogical": {
+          "score": 8,
+          "justification": "Decent pedagogical structure.",
+          "dimension_scores": {"sections_structure": 8, "cognitive_load": 8}
+        },
+        "technical": {
+          "score": 9,
+          "justification": "Good technical approach.",
+          "technical_rank": "Advanced",
+          "dimension_scores": {"correctness": 9, "completeness": 8}
+        }
+      },
+      "passed": false
+    }
+  ]
+}

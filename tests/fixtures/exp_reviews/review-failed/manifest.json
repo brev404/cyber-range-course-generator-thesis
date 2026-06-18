@@ -1,0 +1,26 @@
+{
+  "exp_id": "run-024",
+  "status": "failed",
+  "started_at": "2026-05-12T11:23:31.022065+00:00",
+  "finished_at": "2026-05-12T12:33:03.591629+00:00",
+  "challenge_ids": [],
+  "node_timings": {
+    "coordinator": 0.005,
+    "validator": 0.223,
+    "content_generation": 2494.273,
+    "course_terminology_checker": 0.138,
+    "mapping": 0.083
+  },
+  "pass_count": 0,
+  "mean_overall_score": 0.0,
+  "settings_snapshot": {
+    "provider": "claude-code",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0.0,
+    "threshold": 9.0,
+    "max_refinements": 5,
+    "skip_ranking": false,
+    "source": "local",
+    "categories": []
+  }
+}

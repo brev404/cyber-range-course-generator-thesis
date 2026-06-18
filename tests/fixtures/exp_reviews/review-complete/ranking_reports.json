@@ -1,0 +1,23 @@
+[
+  {
+    "challenge_id": "crypto/aes",
+    "overall_score": 9.5,
+    "pedagogical_review": {"score": 10, "persona": "Pedagogical", "justification": "Excellent.", "dimension_scores": {"sections_structure": 10}},
+    "technical_review": {"score": 9, "persona": "Technical", "justification": "Very good.", "dimension_scores": {"correctness": 9}},
+    "technical_rank": "Intermediate"
+  },
+  {
+    "challenge_id": "web/xss",
+    "overall_score": 7.5,
+    "pedagogical_review": {"score": 7, "persona": "Pedagogical", "justification": "Decent.", "dimension_scores": {"sections_structure": 7}},
+    "technical_review": {"score": 8, "persona": "Technical", "justification": "Good.", "dimension_scores": {"correctness": 8}},
+    "technical_rank": "Beginner"
+  },
+  {
+    "challenge_id": "misc/trivia",
+    "overall_score": 4.0,
+    "pedagogical_review": {"score": 4, "persona": "Pedagogical", "justification": "Poor.", "dimension_scores": {"sections_structure": 4}},
+    "technical_review": {"score": 4, "persona": "Technical", "justification": "Poor.", "dimension_scores": {"correctness": 4}},
+    "technical_rank": "Beginner"
+  }
+]

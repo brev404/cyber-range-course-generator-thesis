@@ -1,0 +1,8 @@
+{
+  "exp_id": "run-019",
+  "description": "Opus generator + Haiku judge",
+  "generator_model": "claude-opus-4-7",
+  "ranking_model": "claude-haiku-4-5-20251001",
+  "architecture": "CLI 8w + 3 ref.",
+  "challenges": ["web/framed", "crypto/rsb"]
+}

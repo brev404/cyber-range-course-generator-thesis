@@ -1,0 +1,33 @@
+# Environment variables (SENSITIVE)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Data (challenge inputs, processed artifacts, vector DB — not distributed)
+data/raw_challenges/
+data/official_docs/
+data/processed/
+data/outputs/
+data/input/
+data/chroma_db/
+
+# Generated outputs
+output/
+
+# Logs
+*.log
+logs/
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store

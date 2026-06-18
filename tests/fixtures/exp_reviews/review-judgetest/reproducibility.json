@@ -1,0 +1,20 @@
+{
+  "run_started_at": "2026-05-25T10:00:00+00:00",
+  "settings": {
+    "LLM_TEMPERATURE": 0.0,
+    "LLM_DEFAULT_PROVIDER": "anthropic",
+    "LLM_DEFAULT_MODEL": "claude-sonnet-4-6",
+    "RANKING_PROVIDER": "anthropic",
+    "RANKING_MODEL": "claude-haiku-4-5",
+    "EMBEDDING_PROVIDER": "local"
+  },
+  "secrets_redacted": {},
+  "cli_overrides": {
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-6",
+    "temperature": 0.0,
+    "threshold": 9.0,
+    "judge_provider": "anthropic",
+    "judge_model": "claude-haiku-4-5"
+  }
+}

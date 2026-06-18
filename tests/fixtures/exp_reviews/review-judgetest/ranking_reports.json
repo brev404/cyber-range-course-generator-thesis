@@ -1,0 +1,16 @@
+[
+  {
+    "challenge_id": "crypto/rsb",
+    "overall_score": 9.5,
+    "pedagogical_review": {"score": 10, "persona": "Pedagogical", "justification": "Excellent."},
+    "technical_review": {"score": 9, "persona": "Technical", "justification": "Very good."},
+    "technical_rank": "Intermediate"
+  },
+  {
+    "challenge_id": "web/sqli",
+    "overall_score": 9.0,
+    "pedagogical_review": {"score": 9, "persona": "Pedagogical", "justification": "Good."},
+    "technical_review": {"score": 9, "persona": "Technical", "justification": "Good."},
+    "technical_rank": "Beginner"
+  }
+]

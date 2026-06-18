@@ -1,0 +1,128 @@
+/* ------------------------------------------------------------------ */
+/* Dark theme foundation                                                */
+/* ------------------------------------------------------------------ */
+Screen {
+    background: $surface;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ------------------------------------------------------------------ */
+/* Home screen                                                          */
+/* ------------------------------------------------------------------ */
+#title {
+    content-align: center middle;
+    height: 3;
+    background: $primary;
+    color: $text;
+    text-style: bold;
+}
+
+#nav-hint {
+    content-align: center middle;
+    height: 2;
+    background: $panel;
+    color: $text-muted;
+}
+
+/* ------------------------------------------------------------------ */
+/* Experiment browser                                                   */
+/* ------------------------------------------------------------------ */
+#exp-browser-container {
+    layout: horizontal;
+    height: 1fr;
+}
+
+#exp-list {
+    width: 30%;
+    height: 100%;
+    border-right: solid $primary;
+}
+
+#exp-detail {
+    width: 70%;
+    height: 100%;
+    padding: 1 2;
+    overflow-y: auto;
+}
+
+/* ------------------------------------------------------------------ */
+/* Run screen                                                           */
+/* ------------------------------------------------------------------ */
+#run-horizontal {
+    height: 1fr;
+}
+
+#run-list {
+    width: 22;        /* fixed column — just enough for "✓ EXP-NNN complete" */
+    height: 100%;
+    border-right: solid $primary;
+}
+
+#main-panel {
+    width: 1fr;
+    height: 100%;
+}
+
+#node-progress {
+    height: 3;
+    background: $panel;
+    padding: 0 1;
+    border-bottom: solid $primary-darken-2;
+    content-align: left middle;
+}
+
+#challenge-table {
+    height: 1fr;      /* fill remaining space in main-panel */
+}
+
+#llm-indicator {
+    height: 3;
+    background: $panel;
+    padding: 0 1;
+    color: $accent;
+    content-align: left middle;
+}
+
+#prompt-panel {
+    height: 10;
+    border-top: solid $primary;
+    background: $panel-darken-1;
+    padding: 1;
+}
+
+/* ------------------------------------------------------------------ */
+/* Run config screen                                                    */
+/* ------------------------------------------------------------------ */
+#run-config-title {
+    height: 3;
+    background: $primary;
+    color: $text;
+    text-style: bold;
+    content-align: center middle;
+}
+
+#form-scroll {
+    height: 1fr;
+    padding: 1 2;
+}
+
+#button-row {
+    height: 3;
+    padding: 0 2;
+    background: $panel;
+    border-top: solid $primary-darken-2;
+}
+
+#button-row Button {
+    margin-right: 2;
+}
+
+/* ------------------------------------------------------------------ */
+/* Status badge colours                                                 */
+/* ------------------------------------------------------------------ */
+.run-complete { color: $success; }
+.run-failed   { color: $error; }
+.run-running  { color: $warning; }

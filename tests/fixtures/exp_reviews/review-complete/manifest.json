@@ -1,0 +1,29 @@
+{
+  "exp_id": "run-complete",
+  "status": "complete",
+  "started_at": "2026-05-20T10:00:00+00:00",
+  "finished_at": "2026-05-20T11:00:00+00:00",
+  "challenge_ids": ["crypto/aes", "web/xss", "misc/trivia"],
+  "node_timings": {
+    "coordinator": 0.01,
+    "validator": 0.5,
+    "content_generation": 1800.0,
+    "course_terminology_checker": 0.2,
+    "mapping": 0.3,
+    "ranking": 120.0,
+    "refinement_step": 60.0,
+    "hitl": 0.0
+  },
+  "pass_count": 2,
+  "mean_overall_score": 7.8,
+  "settings_snapshot": {
+    "provider": "openai",
+    "model": "gpt-4",
+    "temperature": 0.0,
+    "threshold": 9.0,
+    "max_refinements": 5,
+    "skip_ranking": false,
+    "source": "test-source",
+    "categories": ["crypto", "web", "misc"]
+  }
+}
